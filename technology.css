@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"lato", sans-serif;
+}
+body{
+    background-color: #151119;
+    height: 1000px;
+    
+
+}
+.all{
+   border-bottom:2px solid #ffffff53;
+   font-size: 20px;  
+}
+.all .logo{
+display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 35px;
+   
+    
+}
+
+.all .logo a img{
+    width: 35px;
+    margin-top:70px;
+    padding-right: 20px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.main img{
+   width:200px ;
+   margin-bottom: 20px;
+}
+.all .main{
+  display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 35px  
+}
+ .menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    list-style: none;
+}
+ .menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 35px;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #ffffff53;
+}
+ .hero-content h3{
+    margin-bottom: 5px;
+    /* letter-spacing:0.3em; */
+    
+    
+   
+}
+ .hero-content h1{
+    margin-bottom: 20px;
+}
+/*.content p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    line-height: 1.6;
+} */
+.hero{
+    background-image: url(./img/mobile\ tech3.jpg);
+    margin-top: 30px;
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    padding-top: 50px;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+ .hero::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #0000009a;     
+}
+.hero-content{
+z-index:9999;
+
+}
+.hero-content h3{
+    color: blue;
+}
+
+
+.hero  a{
+    display: flex;
+    align-items: center;
+    justify-content:right; 
+    padding: 20px 40px;
+    margin-top: 50px;
+    color:white !important;
+    text-decoration: none;
+    background-color: green;
+    border-radius: 30px;
+    width: 150px;
+
+}
+.follow a{
+    
+    color: blue !important;
+   font-weight: bolder;
+   
+  padding-top: 0;
+}
+.hero a img{
+    width: 25px;
+}
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto;
+position: relative;
+}
+ .featured{
+    /* background-image: url('./img/computer2.jpg');
+    background-size: cover; */
+    background-position: center;
+    
+    /* height: 300px; */
+    margin-bottom: 50px;
+padding: 50px;
+color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+/* .grid-container::before{
+    content: "";
+    position: absolute;
+    background-color: #000000b4;
+    top: 0;
+     left: 0;
+    bottom: 0;
+    right: 0;
+} */
+ .featured-content a img{
+    width: 280px;
+    color: #ffffff;
+    height: 149px;
+    
+}
+.featured-content{
+  background-color: #ffffff;  
+    padding-bottom: 30px;
+    /* margin-top: 100px; */
+    margin-bottom: 0 !important;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 255, 0.603);
+    
+}
+.featured-content h3,p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.featured-content a{
+ text-decoration: none;
+ color: rgba(0, 0, 255, 0.781);
+}
+.txt{
+    padding: 80px;
+    color: rgba(190, 190, 53, 0.918);
+}
+.grid-container{
+    border:1px solid #0000002d;
+    background-color:rgba(37, 2, 2, 0.041);
+    height: 670px;
+}
