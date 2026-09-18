@@ -64,6 +64,8 @@ menu ul li a {
     background-repeat: no-repeat;
 
     color: white;
+        background: red !important;
+    min-height: 500px !important;
 }
 }
 .hero::before {
@@ -171,10 +173,7 @@ article{
 .er img{
     height:110px;
 }
-.hero {
-    background: red !important;
-    min-height: 500px !important;
-}
+
 
 .hero .content {
     background: yellow !important;
