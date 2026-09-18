@@ -38,7 +38,7 @@ text-decoration: none;
     justify-content:left;
     height: 250px;
     overflow: hidden;
-    background-image: url('./img/computingbackgroundimage.png');
+    background-image: url('computingbackgroundimage.png');
     background-size: cover;
     background-position: center;
     height: 350px !important;
