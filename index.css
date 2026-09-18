@@ -171,3 +171,12 @@ article{
 .er img{
     height:110px;
 }
+.hero {
+    background: red !important;
+    min-height: 500px !important;
+}
+
+.hero .content {
+    background: yellow !important;
+    padding: 30px !important;
+}
