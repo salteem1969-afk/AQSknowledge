@@ -15,21 +15,19 @@ body{
     background-color: wheat;
     margin-top: 5px;
 }
-menu ul{
+menu ul {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    margin-top: -15px;
-   
+    gap: 20px;
 }
-menu ul li a{
-     padding-right: 40px;
-     padding: 40px;
-     color: white;
-     text-decoration: none;
-      font-family: "lato",sans-serif;
-     
+
+menu ul li a {
+    padding: 15px 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
 }
 .search a img{
     display: flex;
