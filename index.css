@@ -58,14 +58,13 @@ menu ul li a {
     padding: 60px 8%;
     position: relative;
 
-    background-image: url('./img/footer.png');
+    background-image: url('footer.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
     color: white;
-        background: red !important;
-    min-height: 500px !important;
+       
 }
 }
 .hero::before {
@@ -175,7 +174,4 @@ article{
 }
 
 
-.hero .content {
-    background: yellow !important;
-    padding: 30px !important;
-}
+
