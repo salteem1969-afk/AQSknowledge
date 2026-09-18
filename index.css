@@ -115,6 +115,10 @@ menu ul li a {
     text-decoration: none;
     color: white;
 }
+.content a img {
+    width: 18px;
+    height: 18px;
+}
 article{
     color: white;
     display: grid;
