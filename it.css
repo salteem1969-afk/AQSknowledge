@@ -29,7 +29,7 @@ body{
     border-bottom: 1px solid rgba(255, 255, 0, 0.178);
 }
 .hero{
-    background-image: url('dont.png');
+    background-image: url('dont.png') !important;
     height: 300px;
     display: flex;
     align-items: center;
